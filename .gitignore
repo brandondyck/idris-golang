@@ -27,3 +27,4 @@ tutorial/*.fdb_latexmk
 tutorial/*.fls
 tags
 TAGS
+.stack-work/
