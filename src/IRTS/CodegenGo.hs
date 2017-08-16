@@ -70,7 +70,7 @@ codegenGo_all definitions outputType filename includes objs libs flags dbg = do
                   `T.append` mkImport ". fmt"
                   `T.append` mkImport ". math"
                   `T.append` mkImport "  math/big"
-                  `T.append` mkImport ". idris_runtime"
+                  `T.append` mkImport ". github.com/brandondyck/idris_go_rts"
                   `T.append` "\n"
                   `T.append` imports includes
                   `T.append` "\n"
